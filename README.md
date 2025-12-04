@@ -1,4 +1,3 @@
-```markdown
 # METABRIC Gene Expression and Survival Data Analysis
 
 This project presents an integrative analysis of the METABRIC breast cancer dataset, focusing on RNA sequencing, mutation data, and clinical outcomes.  
@@ -19,7 +18,7 @@ The main objective is to determine whether clusters derived from tumor gene expr
 
 ## Project Structure
 
-```
+```markdown
 
 project/
 ├─ data/
