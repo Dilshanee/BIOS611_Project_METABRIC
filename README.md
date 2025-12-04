@@ -58,7 +58,7 @@ git clone https://github.com/Dilshanee/BIOS611-Project.git
 cd BIOS611_Project_METABRIC
 ````
 
-2. Ensure R and required packages are installed: `ggplot2`, `tidyverse`, `knitr`, `rmarkdown`.
+2. Ensure R and required packages are installed: `ggplot2`, `tidyverse`, `knitr`, `rmarkdown`, `survival`, `survminer`, `cluster`, `factoextra`, `scales`, `RColorBrewer`, `gridExtra`, `ComplexHeatmap`, `circlize`.
 
 3. Run the Makefile to generate all data, figures, and the HTML report:
 
