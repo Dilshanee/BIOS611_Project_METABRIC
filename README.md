@@ -82,8 +82,8 @@ results/report.html
 
 ## Key Findings
 
-* Four patient clusters were identified based on RNA expression.
-* Cluster 2 shows improved overall survival.
+* Four patient clusters were identified based on k-Mean clsutering of RNA expression data.
+* Cluster 2 shows better overall survival compared to others.
 * Lower expression of **MYC** and **JAK1** in cluster 2 may partially explain better outcomes.
 * **TP53** and **PIK3CA** mutations are more prevalent in clusters with poorer survival.
 * Tumor stage distribution alone does not explain survival differences.
