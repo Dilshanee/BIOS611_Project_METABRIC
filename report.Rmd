@@ -18,8 +18,6 @@ library(knitr)
 
 # Overview
 
-# Overview
-
 The METABRIC (Molecular Taxonomy of Breast Cancer International Consortium) dataset is a large, well-characterized breast cancer cohort with genomic, transcriptomic, and clinical information for 1,904 patients diagnosed with primary breast cancer. It integrates patient metadata, RNA gene-expression levels, and somatic mutation profiles, providing a rich resource to study molecular subtypes, prognostic biomarkers, and genetic mechanisms of tumor progression.
 
 The version used in this project contains 693 variables: 31 clinical variables, 489 gene-expression variables, and 173 mutation-status variables. The dataset (METABRIC_RNA_Mutation.csv) was downloaded from Kaggle (https://www.kaggle.com/datasets/raghadalharbi/breast-cancer-gene-expression-profiles-metabric).
@@ -101,7 +99,7 @@ knitr::include_graphics("results/figures/pca_clusters.png")
 
 Kaplan-Meier (KM) plots estimate overall survival probabilities over time. KM curves were generated for the four patient clusters to investigate whether gene expression-based clusters explain survival differences.
 
-The plot shows significant separation among clusters (log-rank p-value < 0.05), with cluster 2 patients exhibiting the best survival. These findings prompted further investigation of tumor stage and gene mutation patterns as potential explanations.
+The plot shows significant separation among clusters (log-rank p-value < 0.05), with cluster 2 patients exhibiting better survival than the rest. These findings prompted further investigation of tumor stage and gene mutation patterns as potential explanations.
 
 
 ```{r survival-by-cluster, echo=FALSE}
@@ -110,9 +108,9 @@ knitr::include_graphics("results/figures/survival_clusters.png")
 
 ## 4. Variable Genes Heatmap
 
-The heatmap shows expression of the 50 most variably expressed genes across samples (columns = samples, rows = genes). Red indicates high expression, blue indicates low expression. K-means cluster assignments are annotated above each sample.
+The heatmap shows expression of the 50 most variably expressed genes across samples (columns = samples, rows = genes). Red indicates high gene expression, blue indicates low gene expression. K-means cluster assignments are annotated above each sample.
 
-Hierarchical clustering of samples largely recapitulates k-means clusters, demonstrating that gene expression profiles are distinct across clusters. Notably, MYC and JAK1 show lower expression in cluster 2, which corresponds to better survival. MYC is a known oncogene linked to proliferation and poor prognosis [PMID: 22028330], and JAK1 is part of the JAK/STAT pathway implicated in metastasis [PMID: 23722119]. Lower expression in cluster 2 may contribute to improved outcomes, although these associations are exploratory.
+Hierarchical clustering of samples largely recapitulates k-means clusters, demonstrating that gene expression profiles are distinct across clusters. Notably, MYC and JAK1 show lower expression in cluster 2, which corresponds to better overall survival. MYC is a known oncogene linked to proliferation and poor prognosis [PMID: 22028330], and JAK1 is part of the JAK/STAT pathway implicated in metastasis [PMID: 23722119]. Lower expression of these genes in cluster 2 may contribute to improved outcomes, although these associations are exploratory.
 
 
 ```{r variable-gene-heatmap, echo=FALSE}
