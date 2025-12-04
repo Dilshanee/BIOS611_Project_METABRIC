@@ -5,7 +5,7 @@ The goal is to explore how tumor gene expression patterns relate to patient surv
 
 ## Overview
 
-The METABRIC (Molecular Taxonomy of Breast Cancer International Consortium) dataset is a large, well-characterized breast cancer cohort containing genomic, transcriptomic, and clinical information for 1,904 patients.  
+The METABRIC (Molecular Taxonomy of Breast Cancer International Consortium) dataset is a large, well-characterized breast cancer cohort containing genomic, transcriptomic, and clinical information for 1,904 breast cancer patients.  
 
 This project uses the subset containing:  
 - 31 clinical variables  
