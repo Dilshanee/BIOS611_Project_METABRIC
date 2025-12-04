@@ -54,7 +54,7 @@ BIOS611_Project_METABRIC/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Dilshanee/BIOS611-Project.git
+git clone https://github.com/Dilshanee/BIOS611_Project_METABRIC.git
 cd BIOS611_Project_METABRIC
 ````
 
