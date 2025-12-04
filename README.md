@@ -19,7 +19,6 @@ The main objective is to determine whether clusters derived from tumor gene expr
 ## Project Structure
 
 ```markdown
-
 project/
 ├─ data/
 │  └─ METABRIC_RNA_Mutation.csv  # Mutation and RNA expression data
@@ -30,17 +29,23 @@ project/
 │  ├─ report.html                # Generated HTML report
 │  └─ figures/                   # All generated figures
 │     ├─ age_distribution.png
-│     ├─ survival_clusters.png
-│     ├─ top50_genes_heatmap.png
+│     ├─ overall_survival_distribution.png
 │     ├─ tumor_stage_distribution.png
-│     ├─ mutation_profile.png
-│     └─ ... (additional figures generated during analysis)
+│     ├─ scree_plot.png
+│     ├─ elbow_method.png
+│     ├─ gap_statistic.png
+│     ├─ pca_clusters.png
+│     ├─ survival_clusters.png
+│     ├─ variable_genes_heatmap.png
+│     ├─ tumor_stage_by_cluster.png
+│     └─ mutations_by_cluster.png
 ├─ scripts/                      # R scripts for data processing and plotting
-│  ├─ preprocess_data.R
-│  ├─ pca_clustering.R
-│  ├─ survival_analysis.R
-│  ├─ variable_gene_analysis.R
-│  └─ tumor_stage_mutation.R
+│  ├─ 01_load_data.R
+│  ├─ 02_data_overview.R
+│  ├─ 03_pca_kmeans.R
+│  ├─ 04_survival.R
+│  ├─ 05_variable_genes.R
+│  └─ 06_mutation_tumor_stage.R
 
 ````
 
