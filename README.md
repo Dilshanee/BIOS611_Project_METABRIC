@@ -102,7 +102,6 @@ Integrative analysis of RNA expression and mutation data can provide valuable in
 
 **Dataset References**:
 
-* METABRIC dataset: [Kaggle link](https://www.kaggle.com/datasets/raghadalharbi/breast-cancer-gene-expression-profiles-metabric)
 * Curtis C. et al., *Nature*, 2012, PMID: 22495301
 * Pereira B. et al., *Nature Communications*, 2016, PMID: 27097314
 
