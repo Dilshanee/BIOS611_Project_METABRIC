@@ -19,7 +19,7 @@ The main objective is to determine whether clusters derived from tumor gene expr
 ## Project Structure
 
 ```markdown
-project/
+BIOS611_Project_METABRIC/
 ├─ data/
 │  └─ METABRIC_RNA_Mutation.csv  # Mutation and RNA expression data
 ├─ report.Rmd                    # Main RMarkdown report
@@ -54,8 +54,8 @@ project/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Dilshanee/BIOS611-Project.git
-cd BIOS611-Project
+git clone [https://github.com/Dilshanee/BIOS611-Project.git](https://github.com/Dilshanee/BIOS611_Project_METABRIC.git)
+cd BIOS611_Project_METABRIC
 ````
 
 2. Ensure R and required packages are installed: `ggplot2`, `tidyverse`, `knitr`, `rmarkdown`.
