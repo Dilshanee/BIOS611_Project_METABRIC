@@ -102,14 +102,3 @@ Integrative analysis of RNA expression and mutation data can provide valuable in
 * Pereira B. et al., *Nature Communications*, 2016, PMID: 27097314
 
 *This project is for educational and research purposes. The METABRIC dataset is publicly available for research, and appropriate citations should be used if reproducing analyses.*
-
-```
-
-✅ This version:  
-- Fully includes the `data` folder with mutation file.  
-- Lists all major figures and scripts.  
-- Explicitly mentions that running the Makefile produces an HTML report (`report.html`) in `results/`.  
-- Structured for GitHub Markdown readability without repeated sentences.  
-
-If you want, I can also generate a **visual folder tree with all figure names** exactly as they appear in your results folder to include in the README—it looks very professional. Do you want me to do that?
-```
